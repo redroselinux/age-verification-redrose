@@ -1,7 +1,7 @@
 ## A concept of how age verification on Linux could work - `age-verification-redrose`
 
 > [!IMPORTANT]
-> This is just a concept and is not yet used in Redrose Linux, and we are not planning to use it just yet.
+> This is **just a concept** and is not yet used in Redrose Linux, and we are not planning to use it just yet.
 
 > our - refers to YOU, YOU as your distros maintainer as the reader
 
@@ -45,3 +45,8 @@ If all checks pass, the config file exists, all users are in the config file, th
 
 The problem is, what about `useradd`? The user could use the new user they created until they reboot! For this problem, we have created
 a wrapper of `useradd` that runs the `age_verification_redrose` command every time a new user is created. It is located in `./src/useradd`.
+
+---
+
+You might ask: _Why did you create this? You invasion of privacy!_<br>
+Well, I really do not think this is a good thing. I think limiting the users from states as California is dumb, because it is not the fault of the users.
