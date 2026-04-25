@@ -1,0 +1,7 @@
+#!/bin/sh
+
+chvt 30
+exec </dev/tty30 >/dev/tty30 2>&1
+age_verification_redrose
+chvt 1
+exec sleep infinity
