@@ -1,6 +1,6 @@
 ## A concept of how age verification on Linux could work - `age-verification-redrose`
 
-> ![IMPORTANT]
+> [!IMPORTANT]
 > This is just a concept and is not yet used in Redrose Linux, and we are not planning to use it just yet.
 
 > our - refers to YOU, YOU as your distros maintainer as the reader
