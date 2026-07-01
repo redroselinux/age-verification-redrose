@@ -1,3 +1,5 @@
+# ARCHIVED - will not be used due to changes in the laws. thank god
+
 ## A concept of how age verification on Linux could work - `age-verification-redrose`
 
 > [!IMPORTANT]
